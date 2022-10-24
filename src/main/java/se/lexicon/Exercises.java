@@ -68,6 +68,7 @@ public class Exercises {
     public static void exc7() {
         int i=20;
         System.out.println("Parsing string example"+ " "+ String.valueOf(i)+20);
+
     }
 
     // 8. Oil and water don't go well together. Given the String:
