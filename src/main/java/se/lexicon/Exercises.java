@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Exercises {
     public static void main(String[] args) {
 
-        exc1();
+        exc7();
     }
     // 1. What is the length of the String: "Java" ? Answer: 4
     // 1.1 What char is at index position 6 in the following String: Answer: X
@@ -66,8 +66,8 @@ public class Exercises {
     // 7. Parse the following int: 20 to a String and add a 20 to the
     //end of the String. Printing it out should return: "2020".
     public static void exc7() {
-        String integer = "2020";
-        System.out.println(integer.trim());
+        int i=20;
+        System.out.println("Parsing string example"+ " "+ String.valueOf(i)+20);
     }
 
     // 8. Oil and water don't go well together. Given the String:
